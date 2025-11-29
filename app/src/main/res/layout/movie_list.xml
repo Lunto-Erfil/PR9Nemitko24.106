@@ -23,4 +23,29 @@
         android:layout_marginTop="-70dp"
         android:layout_marginBottom="200dp"
         android:src="@drawable/logo_film" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="227dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/movie1" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="170dp"
+        android:layout_marginLeft="170dp"
+        android:layout_marginTop="-201dp"
+        android:layout_marginEnd="210dp"
+        android:src="@drawable/movie2" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="360dp"
+        android:layout_marginTop="-201dp"
+        android:layout_marginRight="270dp"
+        android:src="@drawable/movie3" />
 </LinearLayout>
