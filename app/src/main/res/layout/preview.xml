@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#1B70B3"
@@ -13,7 +13,8 @@
         android:scrollY="-20dp"
         android:src="@drawable/logo_film"
         android:translationX="760dp"
-        android:translationY="340dp" />
+        android:translationY="340dp"
+        tools:ignore="ContentDescription,VisualLintBounds" />
 
     <ImageView
         android:id="@+id/imageView10"
@@ -21,28 +22,31 @@
         android:layout_height="wrap_content"
         android:src="@drawable/fnaf_movie_preview"
         android:translationX="110dp"
-        android:translationY="-110dp" />
+        android:translationY="-110dp"
+        tools:ignore="ContentDescription,VisualLintBounds" />
 
     <TextView
         android:id="@+id/textView2"
         android:layout_width="405dp"
         android:layout_height="35dp"
-        android:layout_marginLeft="200dp"
-        android:layout_marginRight="350dp"
-        android:text="Сможешь ли ты выжить?"
+        android:layout_marginStart="200dp"
+        android:layout_marginEnd="350dp"
+        android:text="@string/canYSurvive"
         android:textSize="32sp"
         android:textStyle="bold"
         android:translationX="40dp"
-        android:translationY="-60dp" />
+        android:translationY="-60dp"
+        tools:ignore="VisualLintBounds,TextSizeCheck" />
 
     <TextView
         android:id="@+id/textView4"
         android:layout_width="match_parent"
         android:layout_height="55dp"
-        android:text="ПЯТЬ НОЧЕЙ С ФРЕДДИ"
+        android:text="@string/fnaf"
         android:textAlignment="center"
-        android:textColor="#FF9800"
+        android:textColor="#FFB74D"
         android:textSize="32sp"
         android:textStyle="bold"
-        android:translationY="-510dp" />
+        android:translationY="-510dp"
+        tools:ignore="TextSizeCheck" />
 </LinearLayout>
