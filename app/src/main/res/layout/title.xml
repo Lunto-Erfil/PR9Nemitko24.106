@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
@@ -10,26 +11,30 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="#1B70B3"
-        android:src="@drawable/logo_film" />
+        android:src="@drawable/logo_film"
+        tools:ignore="ContentDescription" />
 
     <ImageView
         android:id="@+id/imageView3"
         android:layout_width="match_parent"
         android:layout_height="73dp"
         android:background="#1B70B3"
-        android:src="@drawable/enter" />
+        android:src="@drawable/enter"
+        tools:ignore="ContentDescription" />
 
     <ImageView
         android:id="@+id/imageView2"
         android:layout_width="match_parent"
         android:layout_height="109dp"
         android:background="#1B70B3"
-        android:src="@drawable/enter" />
+        android:src="@drawable/enter"
+        tools:ignore="ContentDescription" />
 
     <ImageView
         android:id="@+id/imageView4"
         android:layout_width="match_parent"
         android:layout_height="133dp"
         android:background="#1B70B3"
-        android:src="@drawable/log_in" />
+        android:src="@drawable/log_in"
+        tools:ignore="ContentDescription" />
 </LinearLayout>
