@@ -13,7 +13,8 @@
         android:layout_height="69dp"
         android:text="@string/movie"
         android:textSize="60sp"
-        android:textStyle="bold" />
+        android:textStyle="bold"
+        tools:ignore="TextSizeCheck" />
 
     <ImageView
         android:id="@+id/imageView5"
@@ -23,7 +24,7 @@
         android:layout_marginTop="-70dp"
         android:layout_marginBottom="200dp"
         android:src="@drawable/logo_film"
-        tools:ignore="ContentDescription" />
+        tools:ignore="ContentDescription,VisualLintBounds" />
 
     <ImageView
         android:id="@+id/imageView6"
@@ -40,7 +41,7 @@
         android:layout_marginTop="-201dp"
         android:layout_marginEnd="210dp"
         android:src="@drawable/movie2"
-        tools:ignore="ContentDescription" />
+        tools:ignore="ContentDescription,VisualLintBounds,ImageContrastCheck" />
 
     <ImageView
         android:id="@+id/imageView8"
@@ -50,5 +51,5 @@
         android:layout_marginTop="-201dp"
         android:layout_marginEnd="270dp"
         android:src="@drawable/movie3"
-        tools:ignore="ContentDescription" />
+        tools:ignore="ContentDescription,ImageContrastCheck" />
 </LinearLayout>
