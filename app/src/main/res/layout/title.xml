@@ -2,39 +2,42 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:orientation="vertical"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="#1B70B3"
+    android:orientation="vertical">
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="match_parent"
+        android:layout_width="342dp"
+        android:layout_gravity="center"
         android:layout_height="wrap_content"
-        android:background="#1B70B3"
         android:src="@drawable/logo_film"
         tools:ignore="ContentDescription" />
 
     <ImageView
         android:id="@+id/imageView3"
-        android:layout_width="match_parent"
-        android:layout_height="73dp"
-        android:background="#1B70B3"
+        android:layout_width="756dp"
+        android:layout_height="78dp"
+        android:layout_gravity="center"
         android:src="@drawable/enter"
-        tools:ignore="ContentDescription" />
+        tools:ignore="ContentDescription,VisualLintBounds" />
 
     <ImageView
         android:id="@+id/imageView2"
-        android:layout_width="match_parent"
+        android:layout_width="756dp"
         android:layout_height="109dp"
-        android:background="#1B70B3"
+        android:layout_gravity="center"
         android:src="@drawable/enter"
-        tools:ignore="ContentDescription" />
+        tools:ignore="ContentDescription,VisualLintBounds" />
 
     <ImageView
         android:id="@+id/imageView4"
-        android:layout_width="match_parent"
+        android:layout_width="475dp"
         android:layout_height="133dp"
-        android:background="#1B70B3"
+        android:layout_gravity="center"
+        android:clickable="true"
+        android:focusable="true"
         android:src="@drawable/log_in"
-        tools:ignore="ContentDescription" />
+        tools:ignore="ContentDescription,VisualLintBounds,SpeakableTextPresentCheck" />
 </LinearLayout>
